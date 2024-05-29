@@ -61,6 +61,10 @@ This package is available on [luarocks].
 luarocks install --local nlua
 ```
 
+This repository contains a basic [example project](./example_project)
+that demonstrates how you can use `nlua` with `luarocks test`, as well
+as a [GitHub Actions workflow](./.github/workflows/tests.yml).
+
 ### Manually
 
 For [luarocks] support, copy or symlink `nlua` to `/usr/bin/`
